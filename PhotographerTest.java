@@ -9,8 +9,8 @@ public class PhotographerTest {
   @Before
   public void before(){
   photographer = new Photographer("Allegra");
-  analogcamera = new AnalogCamera("Polaroid");
-  digitalcamera = new DigitalCamera("Canon");
+  analogcamera = new AnalogCamera("Polaroid", "hipster");
+  digitalcamera = new DigitalCamera("Canon", "Hi");
   }
 
   @Test
