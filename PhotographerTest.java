@@ -31,6 +31,11 @@ public class PhotographerTest {
     assertEquals(0, photographer.cameraCount());
   }
 
+  @Test
+  public void canReturnAllDetails(){
+    assertEquals("Polaroid hipster Canon Hi", Printable.printDetails());
+  }
+
 
 
 }
