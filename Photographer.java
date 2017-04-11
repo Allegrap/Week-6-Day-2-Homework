@@ -13,4 +13,12 @@ public class Photographer {
     return this.name;
   }
 
+  public void addCamera(Printable printable){
+    collection.add(printable);
+  }
+
+  public int cameraCount(){
+    return collection.size();
+  }
+
 }

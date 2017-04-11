@@ -1,7 +1,13 @@
-public class DigitalCamera implements Printable extends Camera {
+public class DigitalCamera implements Printable {
+
+  private String name;
+
+  public DigitalCamera(String name){
+    this.name = name;
+  }
 
   public String printDetails(){
-    return 
+    return this.name;
   }
 
 }

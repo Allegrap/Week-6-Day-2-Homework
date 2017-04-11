@@ -20,8 +20,8 @@ public class PhotographerTest {
 
   @Test
   public void canAddCamera(){
-    photographer.addCamera();
-    assertEquals("Polaroid", photographer.getName());
+    photographer.addCamera(digitalcamera);
+    assertEquals(1, photographer.cameraCount());
   }
 
 
