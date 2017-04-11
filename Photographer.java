@@ -2,11 +2,11 @@ import java.util.*;
 
 public class Photographer {
   private String name;
-  private ArrayList<Camera> cameras;
+  private ArrayList<Printable> collection;
 
   public Photographer(String name){
     this.name = name;
-    this.cameras = new ArrayList<Camera>();
+    this.collection = new ArrayList<Printable>();
   }
 
 }
