@@ -12,4 +12,8 @@ public class DigitalCamera implements Printable {
     return this.name + this.resolution;
   }
 
+  public String alive(){
+    return "I'm alive!";
+  }
+
 }

@@ -12,4 +12,8 @@ public class AnalogCamera implements Printable {
     return this.name + this.filter;
   }
 
+  public String alive(){
+    return "I'm alive!";
+  }
+
 }
