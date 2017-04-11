@@ -24,7 +24,12 @@ public class PhotographerTest {
     assertEquals(1, photographer.cameraCount());
   }
 
-
+  @Test
+  public void canRemoveCamera(){
+    photographer.addCamera(digitalcamera);
+    Printable camera = photographer.removeCamera();
+    assertEquals("I'm alive!", camera.alive());
+  }
 
 
 
