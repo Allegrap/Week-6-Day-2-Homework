@@ -9,4 +9,8 @@ public class Photographer {
     this.collection = new ArrayList<Printable>();
   }
 
+  public String getName(){
+    return this.name;
+  }
+
 }
