@@ -21,4 +21,11 @@ public class Photographer {
     return collection.size();
   }
 
+  public Printable removeCamera(){
+    if(cameraCount() > 0){
+      return collection.remove(0);
+    }
+    return null;
+  }
+
 }
